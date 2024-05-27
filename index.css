@@ -1,0 +1,89 @@
+body {
+    font-family: Outfit, Roboto, sans-serif;
+    background: #27292c;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 50px auto;
+    font-size: 40px;
+}
+
+video{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#fallas, #history, #beach{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    color: white;
+    margin: 0;
+}
+
+.textcolor{
+    color: #8ECAE6;
+}
+
+p {
+    text-align: justify;
+}
+
+.container2{
+    background: white;
+    display: flex;
+    color: #808080;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    margin: 0;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container3{
+    background: #219EBC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 15px;
+    margin: 0;
+}
+
+input {
+    width: 200px;
+    font-size: 15px;
+    padding: 8px;
+    color: #808080;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #8ECAE6;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    font-size: 15px;
+}
+/* #27292c
